@@ -14,4 +14,5 @@ Instructions are provided in the Word document.
 
 ## Usage
 - Detailed step-by-step instructions for each part of the process are included in the Word document. Refer to it for setting up, decoding, and processing your VIN data.
-- The Excel form is for use with the SQL database output. 
+- The Excel form is for use with the SQL database output.
+- The Excel form was originally made for a research project where the electrification level was needed for vehicles, so that battery electric vehicles (BEVs) and hybrid electric vehicles (HEVs) could be identified.
