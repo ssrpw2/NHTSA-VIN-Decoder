@@ -2,8 +2,8 @@
 
 This repository contains a comprehensive setup for VIN decoding. The databse is NHTSA's standalone database, from year 2022. An updated version that works with NHTSA's 2024 database is in the works. 
 ## Getting Started
-- **Database Import:** Begin by importing the `.bak` file into SQL Server Management Studio to set up the VIN Decode database. [Download the SQL database backup here](https://github.com/ssrpw2/NHTSA-VIN-Decoder/releases/tag/v1.0)
-Instructions are provided in the Word document.
+- **Database Import:** Begin by importing the `.bak` file into SQL Server Management Studio to set up the VIN Decode database.Instructions are provided in the Word document.
+- [Download the SQL database backup here](https://github.com/ssrpw2/NHTSA-VIN-Decoder/releases/tag/v1.0) .
 - **VIN Decoding:** Use the SQL script to decode VINs. Follow the instructions to execute the script within SQL Server Management Studio.
 - **Data Processing:** After decoding, use the provided Excel form to process and manage the output data.
   
