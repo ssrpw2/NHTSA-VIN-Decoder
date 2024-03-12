@@ -7,12 +7,7 @@ This repository contains a comprehensive setup for VIN decoding. The database is
 - **VIN Decoding:** Use the SQL script to decode VINs. Follow the instructions to execute the script within SQL Server Management Studio.
 - **Data Processing:** After decoding, use the provided Excel form to process and manage the output data.
   
-## Installation
-1. Import the `.bak` file into your SQL Server instance.
-2. Implement the stored procedure using the provided SQL script.
-3. Open the Excel form and configure it to connect to your SQL database.
 
-## Usage
 ## Usage
 ### General Information:
 
