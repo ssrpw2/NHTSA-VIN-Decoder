@@ -1,7 +1,6 @@
 ```sql
-UUSE [vPICList_lite]
+USE [vPICList_lite]
 GO
-/****** Object:  StoredProcedure [dbo].[spVinDecode_v4]    Script Date: 3/16/2024 4:33:56 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
