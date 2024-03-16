@@ -1,5 +1,5 @@
 ```sql
-USE [vPICList_lite_2022]
+USE [vPICList_lite]
 GO
 SET ANSI_NULLS ON
 GO
