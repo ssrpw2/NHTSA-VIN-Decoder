@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive setup for VIN decoding. The database is NHTSA's standalone database, from year 2022.  
 ## Getting Started
-- **Database Import:** Begin by importing the `.bak` file into SQL Server Management Studio to set up the VIN Decode database.Instructions are provided in the Word document.
+- **Database Import:** Begin by importing the `.bak` file into SQL Server Management Studio to set up the VIN Decode database.
 - [Download the SQL database backup here](https://github.com/ssrpw2/NHTSA-VIN-Decoder/releases/tag/v1.0) .
 - **VIN Decoding:** Use the SQL script to decode VINs. Follow the instructions to execute the script within SQL Server Management Studio.
 - **Data Processing:** After decoding, use the provided Excel form to process and manage the output data.
@@ -12,7 +12,7 @@ This repository contains a comprehensive setup for VIN decoding. The database is
 ### General Information:
 
 * Product Information Catalog and Vehicle Listing (vPIC) Analytical User's Manual 2020: [https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813252]
-* Data will always export as a 2 row x 8 column table. This allows sorting in the Excel form that has been provided. 
+* Data will always export as a 2 row x 6 column table. This allows sorting in the Excel form that has been provided. 
 * Columns A-F  will populate: VIN, Year, Make, Model, Body Style, HEV/BEV Label (in this order)
 *	For version 3: If VIN does not decode clean (by NHTSA's definition) the cells will display `error`
 *	For version 4: If error code #4, #8 or #11 is associated with the VIN decode process from the SQL query, the cells will display `error`.
